@@ -1,6 +1,6 @@
 .header{
   display: flex;
-  flex-flow: row;
+  flex-flow: row wrap;
   justify-content: space-between;
   border-bottom: 1px solid black;
   margin-bottom: 5%;
