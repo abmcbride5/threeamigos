@@ -1,0 +1,25 @@
+.tileCard{
+    border: 2px solid black;
+    /* height: 16em; */
+    /* width: 15em; */
+    margin: 1%;
+    padding: 2%;
+    font-size: 1em;
+
+    
+}
+
+.tileCard__image{
+    padding: 7% 6%;
+    margin: 8% 35%;
+    border: 6px solid black;
+    border-radius: 5%;
+}
+
+.tileCard__body{
+     font-size: 1em
+}
+
+p{
+    width: 18em;
+}

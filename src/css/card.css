@@ -1,0 +1,15 @@
+.card{
+    border: 2px solid black;
+    height: 16em;
+    width: 15em;
+    margin: 1%;
+    padding: 4%;
+}
+.card__title{
+    font-size: 1em;
+    text-align: center;
+}
+.card__body{
+     font-size: 1em;
+     width: 16em;
+}
