@@ -4,9 +4,7 @@
     /* width: 15em; */
     margin: 1%;
     padding: 2%;
-    font-size: 1em;
-
-    
+    font-size: 1em;   
 }
 
 .tileCard__image{
@@ -14,6 +12,8 @@
     margin: 8% 35%;
     border: 6px solid black;
     border-radius: 5%;
+    height: 10%;
+    width: 15%;
 }
 
 .tileCard__body{

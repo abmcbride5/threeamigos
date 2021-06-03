@@ -1,8 +1,12 @@
-.app__info{
+.app{
   display: flex;
-  flex-flow: row wrap;
-  justify-content: center;
+  flex-flow: column;
+  /* justify-content: center; */
 }
+ .app__body{
+   margin: 8% 0% 0% 0%;
+   padding: 15% 0% 0% 0%;
+ }
 
 
 

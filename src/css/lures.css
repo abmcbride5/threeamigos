@@ -1,0 +1,17 @@
+.lures{
+    height: 8%;
+    height: 8%;
+    width: 90%;
+    margin: 4%;
+    padding: 1%;
+}
+
+.bait{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+
+.lures__title{
+    text-align: center;
+}

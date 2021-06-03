@@ -1,0 +1,9 @@
+.fishing__title{
+    text-align: center;
+}
+
+.fishing__fish{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}

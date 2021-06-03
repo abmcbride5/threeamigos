@@ -1,8 +1,9 @@
-.tilesComp__tiles{
+.tiles__tiles{
     display: flex;
     flex-flow: row wrap;
     justify-content: center;
   }
-  .tilesComp__title{
+  
+  .tiles__title{
     text-align: center;
   }

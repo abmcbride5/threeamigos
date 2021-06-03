@@ -1,6 +1,6 @@
 export default function RaidsComp(){
     return(
-    <div>
+    <div className="raids">
     <h1>Raids</h1>
     </div>
     

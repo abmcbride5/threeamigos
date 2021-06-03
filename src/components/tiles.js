@@ -1,50 +1,52 @@
 import TileCard from './tileCard';
-import A from '../images/Tile_A.png';
-import B from '../images/Tile_B.png';
-import C from '../images/Tile_C.png';
-import D from '../images/Tile_D.png';
-import E from '../images/Tile_E.png';
-import F from '../images/Tile_F.png';
-import G from '../images/Tile_G.png';
-import H from '../images/Tile_H.png';
-import I from '../images/Tile_I.png';
-import J from '../images/Tile_J.png';
-import K from '../images/Tile_K.png';
-import L from '../images/Tile_L.png';
-import M from '../images/Tile_M.png';
-import N from '../images/Tile_N.png';
-import O from '../images/Tile_O.png';
-import P from '../images/Tile_P.png';
-import Q from '../images/Tile_Q.png';
-import R from '../images/Tile_R.png';
-import S from '../images/Tile_S.png';
-import T from '../images/Tile_T.png';
-import U from '../images/Tile_U.png';
-import V from '../images/Tile_V.png';
-import W from '../images/Tile_W.png';
-import X from '../images/Tile_X.png';
-import Y from '../images/Tile_Y.png';
-import Z from '../images/Tile_Z.png';
-import a from '../images/Tile_sa (1).png';
-import x from '../images/Tile_sx (1).png';
-import c from '../images/Tile_sc (1).png';
-import e from '../images/Tile_se (1).png';
-import g from '../images/Tile_sg (1).png';
-import i from '../images/Tile_si (1).png';
-import n from '../images/Tile_sn (1).png';
-import o from '../images/Tile_so (1).png';
-import s from '../images/Tile_ss (1).png';
-import t from '../images/Tile_st (1).png';
+import A from '../tileImages/Tile_A.png';
+import B from '../tileImages/Tile_B.png';
+import C from '../tileImages/Tile_C.png';
+import D from '../tileImages/Tile_D.png';
+import E from '../tileImages/Tile_E.png';
+import F from '../tileImages/Tile_F.png';
+import G from '../tileImages/Tile_G.png';
+import H from '../tileImages/Tile_H.png';
+import I from '../tileImages/Tile_I.png';
+import J from '../tileImages/Tile_J.png';
+import K from '../tileImages/Tile_K.png';
+import L from '../tileImages/Tile_L.png';
+import M from '../tileImages/Tile_M.png';
+import N from '../tileImages/Tile_N.png';
+import O from '../tileImages/Tile_O.png';
+import P from '../tileImages/Tile_P.png';
+import Q from '../tileImages/Tile_Q.png';
+import R from '../tileImages/Tile_R.png';
+import S from '../tileImages/Tile_S.png';
+import T from '../tileImages/Tile_T.png';
+import U from '../tileImages/Tile_U.png';
+import V from '../tileImages/Tile_V.png';
+import W from '../tileImages/Tile_W.png';
+import X from '../tileImages/Tile_X.png';
+import Y from '../tileImages/Tile_Y.png';
+import Z from '../tileImages/Tile_Z.png';
+import a from '../tileImages/Tile_sa (1).png';
+import x from '../tileImages/Tile_sx (1).png';
+import c from '../tileImages/Tile_sc (1).png';
+import e from '../tileImages/Tile_se (1).png';
+import g from '../tileImages/Tile_sg (1).png';
+import i from '../tileImages/Tile_si (1).png';
+import n from '../tileImages/Tile_sn (1).png';
+import o from '../tileImages/Tile_so (1).png';
+import s from '../tileImages/Tile_ss (1).png';
+import t from '../tileImages/Tile_st (1).png';
+import one from '../tileImages/Tile_1.png';
+import zero from '../tileImages/Tile_0.png'
 
 
 import '../css/tiles.css';
 
 export default function TilesComp(){
     return(
-    <div className="tilesComp">
+    <div className="tiles">
 
-    <h1 className="tilesComp__title">Tiles</h1>
-    <div className="tilesComp__tiles">
+    <h1 className="tiles__title">Tiles</h1>
+    <div className="tiles__tiles">
         <TileCard 
             image={A}
             alter="A"
@@ -319,12 +321,14 @@ export default function TilesComp(){
             ore="Cryejil(3) and Grathorp(1)"
         />
          <TileCard
+            image={zero}
             alter="0"
             tileLetter="0"
             other="Killing enemies"
             ore="Linstanium(1), Obsidian(2), and Nahomium(1)"
         />
          <TileCard 
+            image={one}
             alter="1"
             tileLetter="1"
             other="Killing more than one enemy or close distance effect"

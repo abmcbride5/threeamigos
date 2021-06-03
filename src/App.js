@@ -8,6 +8,7 @@ import RaidsComp from './components/raids';
 import FishingComp from './components/fishing';
 import MonstersComp from './components/monsters'; 
 import SourcesComp from './components/sources';
+import ThreeAmigos from './components/three';
 
 import './css/App.css';
 
@@ -21,6 +22,7 @@ function App() {
   const [Fishing, setFishing] = useState(false);
   const [Monsters, setMonsters] = useState(false);
   const [Sources, setSources] = useState(false);
+  const [three, setThree] = useState(false);
 
 
   // React.useEffect(() => {
@@ -72,6 +74,12 @@ function App() {
     } else {
       setSources(false);
     }
+
+    if (tab === "Three Amigos"){
+      setThree(true);
+    } else {
+      setThree(false);
+    }
     
   }
 
@@ -88,6 +96,7 @@ function App() {
       {Fishing && <FishingComp />}
       {Monsters && <MonstersComp />}
       {Sources && <SourcesComp />}
+      {three && <ThreeAmigos />}
       
       {}
       </div>

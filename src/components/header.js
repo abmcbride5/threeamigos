@@ -10,11 +10,12 @@ export default function  Header(props){
 
     return (
         <div className="header">
-            <Link click={handleTempClick} label="Dungeons" />
+            <Link click={props.click} label="Three Amigos" />
+            <Link click={props.click} label="Dungeons" />
             <Link click={props.click} label="Tiles" />
-            <Link click={handleTempClick} label="Raids" />
-            <Link click={handleTempClick} label="Fishing" />
-            <Link click={handleTempClick} label="Monsters" />
+            <Link click={props.click} label="Raids" />
+            <Link click={props.click} label="Fishing" />
+            <Link click={props.click} label="Monsters" />
             <Link click={handleTempClick} label="Calendar" />
             <Link click={handleTempClick} label="Profile" />
             <Link click={props.click} label="Sources" />

@@ -7,7 +7,7 @@ export default function Link(props){
         onClick={() => props.click(props.label)}
         className="link"
         >
-            {props.label}
+            <strong>{props.label}</strong>
         </button>
     )
 }
