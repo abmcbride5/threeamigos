@@ -6,4 +6,12 @@
   
   .tiles__title{
     text-align: center;
+    color: white;
+    border-radius: 1%;
+    background-color: #AAAAAA;
+    width: 27%;
+    margin: 2% auto;
+    border: 2px solid #AAAAAF;
+    box-shadow: 1px 1px 2px black;
+    
   }

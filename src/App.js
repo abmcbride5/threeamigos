@@ -1,7 +1,6 @@
 import React, { useState } from 'react';
 
 import Header from './components/header';
-import Home from './components/home';
 import DungeonsComp from './components/dungeons';
 import TilesComp from './components/tiles';
 import RaidsComp from './components/raids';
@@ -15,14 +14,13 @@ import './css/App.css';
 
 function App() {
   // const [data, setData] = useState(null);
-  const [info, setInfo] = useState(true);
   const [Dungeons, setDungeons] = useState(false);
   const [Tiles, setTiles] = useState(false);
   const [Raids, setRaids] = useState(false);
   const [Fishing, setFishing] = useState(false);
   const [Monsters, setMonsters] = useState(false);
   const [Sources, setSources] = useState(false);
-  const [three, setThree] = useState(false);
+  const [three, setThree] = useState(true);
 
 
   // React.useEffect(() => {
@@ -32,12 +30,6 @@ function App() {
   // }, []);
 
   const handleClick = (tab) => {
-
-    if (tab === "info"){
-      setInfo(true);
-    } else {
-      setInfo(false);
-    }
 
     if (tab === "Dungeons"){
       setDungeons(true);
@@ -89,7 +81,6 @@ function App() {
     <div className="app">
       <Header click={handleClick} />
       <div className="app__body">
-      {info && <Home />}
       {Dungeons && <DungeonsComp />}
       {Tiles && <TilesComp />}
       {Raids && <RaidsComp />}
