@@ -14,6 +14,7 @@ export default function SourcesComp(){
            <Source link="https://orbusfreepress.org/index.php/Fishing" />
            <Source link="https://orbusvr.fandom.com/wiki/Dungeons" />
            <Source link="https://orbusfreepress.org/index.php/Dungeons" />
+           <Source link="https://orbus.online/index.php?title=Shard_Dungeons#Modifiers" />
         </div>
     )
 }

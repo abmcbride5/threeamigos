@@ -7,3 +7,14 @@
     flex-flow: row wrap;
     justify-content: center;
 }
+.minor {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
+.major {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
+

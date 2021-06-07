@@ -50,8 +50,37 @@ export default function DungeonsComp(){
         </div>
         <div className="modifiers">
             <h2>Minor Mutations</h2>
-            <p><strong></strong></p>
-
+            <div className="minor">
+            <p><strong>Aggressive: </strong>Enemy basic attacks happen 25% faster. </p>
+            <p><strong>Mobile: </strong>Enemy movement speed is increased by 100%.</p>
+            <p><strong>Alert: </strong>The aggro radius of all monsters is doubled.</p>
+            <p><strong>Indecisive: </strong>Threat generating skills are not as effective (harder to keep aggro).</p>
+            <p><strong>Dumbfounded: </strong>Slower ultimate generation.</p>
+            <p><strong>Unprepared: </strong>Your first attack in combat does increased damage (About 25% damage 
+                increase in shards), but your subsequent attacks against them are reduced by 10% for mobs and bosses.</p>
+            <p><strong>Thick Skinned: </strong>Mobs have additional resistance to Physical damage.</p>
+            <p><strong>Strong Willed: </strong>Mobs have additional resistance to Magical damage.</p>
+            </div>
+            
+            <h2>Major Mutations</h2>
+            <div className="major">
+            <p><strong>Vindictive: </strong>Enemies will give a buff to nearby allies on death, increasing their damage 
+                done by 10% (stacks up to 5 times).</p>
+            <p><strong>Spores: </strong>When an enemy is engaged in combat, it will randomly spawn an exploding mushroom 
+                nearby which must be killed quickly, or risk exploding in a large area, poisoning nearby players.</p>
+            <p><strong>Unstable: </strong>Enemies will explode on death, dealing damage to nearby creatures and players.</p>
+            <p><strong>Sickness: </strong>There is a chance every time that you attack an enemy to receive a debuff which 
+                causes you to receive reduced healing. Stacks up to 5 times.</p>
+            <p><strong>Last Stand: </strong>When enemies reach 30% health they enrage, dealing 100% additional damage on all 
+                attacks</p>
+            <p><strong>Discontent : </strong>When enemies die they leave behind a pool that deals damage to all players that 
+                step into it, which disappears after a bit.</p>
+            <p><strong>Power Strikes: </strong>Increased damage from projectiles</p>
+            </div>
+            <div className="ten">
+            <h2>Level 10 shard Mutation</h2>
+            <p><strong>Reincarnation: </strong>Killed enemies have a small chance of immediately resurrecting.</p>
+            </div>
         </div>
     </div>
     
