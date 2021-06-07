@@ -1,0 +1,9 @@
+.dungeons {
+    padding: 3%;
+}
+
+.locations {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}

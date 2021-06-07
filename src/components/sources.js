@@ -12,6 +12,8 @@ export default function SourcesComp(){
            <Source link="https://orbus.online/index.php?title=Tiles" />
            <Source link="https://orbusfreepress.org/index.php/Artificing" />
            <Source link="https://orbusfreepress.org/index.php/Fishing" />
+           <Source link="https://orbusvr.fandom.com/wiki/Dungeons" />
+           <Source link="https://orbusfreepress.org/index.php/Dungeons" />
         </div>
     )
 }
