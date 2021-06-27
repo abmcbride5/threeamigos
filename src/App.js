@@ -83,9 +83,7 @@ function App() {
       <div className="app__body">
       {Dungeons && <DungeonsComp />}
       {Tiles && <TilesComp />}
-      {Raids && <RaidsComp />}
       {Fishing && <FishingComp />}
-      {Monsters && <MonstersComp />}
       {Sources && <SourcesComp />}
       {three && <ThreeAmigos />}
       
