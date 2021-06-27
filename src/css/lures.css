@@ -4,15 +4,13 @@
     width: 90%;
     margin: 0% auto;
     padding: 1%;
-    border: 1px solid black;
-    box-shadow: 0px 0px 3px gray;
 }
 
 .bait{
     display: flex;
     flex-flow: row wrap;
     justify-content: space-around;
-    margin: 0% 0% 0% 16%;
+    margin: 0% 0% 0% 5%;
 }
 
 .lures__title{

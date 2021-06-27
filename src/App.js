@@ -52,8 +52,6 @@ function App() {
     
   }
 
-  console.log(Monsters)
-
   return (
     <div className="app">
       <Header click={handleClick} />
