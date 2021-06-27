@@ -1,9 +1,10 @@
 .app{
   display: flex;
   flex-flow: row wrap;
+  /* justify-content: center; */
 }
  .app__body{
-  margin: -17% 3% 0% 18%;
+  margin: -17% -19% 0% 26%;
   padding: 22% 7% 0% 4%;
  }
 
