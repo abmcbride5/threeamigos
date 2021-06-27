@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 
-import Header from './components/header';
+import Navigation from './components/navigation';
 import DungeonsComp from './components/dungeons';
 import TilesComp from './components/tiles';
 import FishingComp from './components/fishing';
@@ -54,7 +54,7 @@ function App() {
 
   return (
     <div className="app">
-      <Header click={handleClick} />
+      <Navigation click={handleClick} />
       <div className="app__body">
       {Dungeons && <DungeonsComp />}
       {Tiles && <TilesComp />}
